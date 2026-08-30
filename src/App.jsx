@@ -8,7 +8,7 @@ import Contact from "./pages/Contact.jsx";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio4">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
